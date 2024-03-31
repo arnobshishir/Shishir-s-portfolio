@@ -77,11 +77,13 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-
+section{
+    margin-top: 130px;
+    
+}
 /* About Sections Styles */
 .about {
     text-align: center;
-    margin-top: 130px;
     background: #e4fdff;
     border-radius: 10px;
     padding: 130px 150px;
@@ -120,10 +122,7 @@ main {
     font-weight: 700;
 }
 /* What I Do Styles */
-.what-i-do{
-    margin: 130px;
-    
-}
+
 .skills-container{
     display: flex;
     gap: 24px;
@@ -142,4 +141,56 @@ main {
 }
 .skill-description{
     color: #757575;
+}
+/* resume styles */
+.resume-content{
+    display: flex;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-content hr{
+    margin-right: 30px;
+}
+.resume .title{
+font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+}
+.resume .sub-title{
+color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.resume .description{
+color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+/* conatct Style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #e4fdff;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    padding:18px 30px;
+    width: 100%;
+}
+input{
+    height: 30px;
+}
+.contact a{
+    text-decoration: none;
 }
